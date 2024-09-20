@@ -19,10 +19,14 @@ li {
 /* header */
 
 .header {
-  height: 50px;
+  background-color: #acd6e4;
+  height: 455px;
+}
+
+.nav-items-container {
   display: flex;
   align-items: center;
-  background-color: #acd6e4;
+  height: 50px;
 }
 
 .nav-items {
@@ -58,13 +62,12 @@ li {
   gap: 10px;
   justify-content: center;
 }
-/* main */
-main > .first-section {
+header > .first-section {
   height: 400px;
   background-color: #010088;
 }
 
-main > .first-section > .first-section-container {
+header > .first-section > .first-section-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,6 +80,8 @@ main > .first-section > .first-section-container {
   background-color: #ec81eb;
   border: 1px dashed black;
 }
+
+/* main */
 
 /* footer */
 
