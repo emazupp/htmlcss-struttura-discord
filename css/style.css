@@ -98,11 +98,19 @@ header > .header-section > .header-section-container {
 .card-container > .big-card-item {
   width: 510px;
   height: 370px;
+  background-color: #1e8ff7;
+  border: 1px dashed black;
 }
 
 .card-container > .small-card-item {
   width: 390px;
   height: 370px;
+  background-color: #f9bfcb;
+  border: 1px dashed black;
+}
+
+main > :nth-child(even) {
+  background-color: #d2d2d2;
 }
 
 /* footer */
