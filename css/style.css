@@ -139,7 +139,7 @@ main > :nth-child(even) {
 .footer-container {
   display: flex;
   flex-direction: column;
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 .footer-links-section {
@@ -147,6 +147,10 @@ main > :nth-child(even) {
   flex-direction: row;
   padding-bottom: 30px;
   border-bottom: 1px solid grey;
+}
+
+.footer-signin-section {
+  border-top: 1px solid rgb(38, 38, 38);
 }
 
 .footer-large-section,
