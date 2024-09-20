@@ -62,19 +62,20 @@ li {
   gap: 10px;
   justify-content: center;
 }
-header > .first-section {
+
+header > .header-section {
   height: 400px;
   background-color: #010088;
 }
 
-header > .first-section > .first-section-container {
+header > .header-section > .header-section-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 400px;
 }
 
-.first-section-content {
+.header-section-content {
   height: 300px;
   width: 700px;
   background-color: #ec81eb;
