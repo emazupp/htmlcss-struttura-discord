@@ -59,6 +59,10 @@ li {
   justify-content: center;
 }
 /* main */
+main > .first-section {
+  height: 400px;
+  /* background-color: blue; */
+}
 
 /* footer */
 
