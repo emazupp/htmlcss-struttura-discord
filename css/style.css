@@ -14,7 +14,7 @@ button {
 /* utils */
 :root {
   --general-padding: 40px;
-  --footer-padding: 13px;
+  --footer-padding: 15px;
 }
 
 .container {
