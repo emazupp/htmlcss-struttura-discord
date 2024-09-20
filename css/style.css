@@ -1,5 +1,24 @@
+/* resets */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
+
+/* utils */
+.container {
+  margin: 0 auto;
+  width: 1000px;
+  max-width: 100%;
+}
+
+/* header */
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* main */
+
+/* footer */
