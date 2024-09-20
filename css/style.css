@@ -20,7 +20,7 @@ li {
 
 .header {
   background-color: #acd6e4;
-  height: 455px;
+  height: 443px;
 }
 
 .nav-items-container {
@@ -64,7 +64,6 @@ li {
 }
 
 header > .header-section {
-  height: 400px;
   background-color: #010088;
 }
 
@@ -72,7 +71,7 @@ header > .header-section > .header-section-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: 390px;
 }
 
 .header-section-content {
