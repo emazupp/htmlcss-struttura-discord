@@ -8,17 +8,56 @@
 /* utils */
 .container {
   margin: 0 auto;
-  width: 1000px;
+  width: 900px;
   max-width: 100%;
+}
+
+li {
+  list-style-type: none;
 }
 
 /* header */
 
+.header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #acd6e4;
+}
+
 .nav-items {
   display: flex;
   justify-content: space-between;
+  background-color: #d7a522;
 }
 
+.logo-container,
+.login-container {
+  width: 150px;
+  display: flex;
+  padding: 5px;
+  border: 1px dashed black;
+}
+
+.logo-container {
+  justify-content: flex-start;
+}
+
+.login-container {
+  justify-content: flex-end;
+}
+
+.links-container {
+  width: 600px;
+  padding: 5px;
+  border: 1px dashed black;
+}
+
+.nav-links-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
 /* main */
 
 /* footer */
@@ -27,20 +66,20 @@
 
 .debug {
   background-color: rgb(27, 27, 27);
-  border: 1px dashed black;
+  border: 1px dashed white;
 }
 
 .debug > .debug {
   background-color: rgb(68, 68, 68);
-  border: 1px dashed black;
+  border: 1px dashed white;
 }
 
 .debug > .debug > .debug {
   background-color: rgb(95, 95, 95);
-  border: 1px dashed black;
+  border: 1px dashed white;
 }
 
 .debug .debug .debug .debug {
   background-color: rgb(165, 165, 165);
-  border: 1px dashed black;
+  border: 1px dashed white;
 }
