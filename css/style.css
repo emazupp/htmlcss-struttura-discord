@@ -27,7 +27,7 @@
 
 .debug {
   background-color: rgb(27, 27, 27);
-  border-style: spò;
+  border: 1px dashed black;
 }
 
 .debug > .debug {
