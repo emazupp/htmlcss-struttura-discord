@@ -22,3 +22,25 @@
 /* main */
 
 /* footer */
+
+/* debug */
+
+.debug {
+  background-color: rgb(27, 27, 27);
+  border-style: spò;
+}
+
+.debug > .debug {
+  background-color: rgb(68, 68, 68);
+  border: 1px dashed black;
+}
+
+.debug > .debug > .debug {
+  background-color: rgb(95, 95, 95);
+  border: 1px dashed black;
+}
+
+.debug .debug .debug .debug {
+  background-color: rgb(165, 165, 165);
+  border: 1px dashed black;
+}
