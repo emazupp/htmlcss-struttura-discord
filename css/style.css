@@ -113,6 +113,16 @@ main > :nth-child(even) {
   background-color: #d2d2d2;
 }
 
+.second-section > .card-container {
+  flex-direction: row-reverse;
+}
+
+.huge-card-item {
+  height: 700px;
+  width: 900px;
+  background-color: #228822;
+  border: 1px dashed black;
+}
 /* footer */
 
 /* debug */
